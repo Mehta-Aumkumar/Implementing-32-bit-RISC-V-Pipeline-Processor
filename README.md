@@ -110,23 +110,9 @@ The memory unit supports **byte**, **half-word**, and **word** accesses with bot
 
 ![Load Instructions](Images/Load-unsigned-signed%20Instructions.png)
 
-| funct3 | Instruction | Description |
-|--------|-------------|-------------|
-| `000` | `lb`  | Load byte — sign-extended to 32 bits |
-| `001` | `lh`  | Load half-word — sign-extended to 32 bits |
-| `010` | `lw`  | Load full 32-bit word |
-| `100` | `lbu` | Load byte — zero-extended to 32 bits |
-| `101` | `lhu` | Load half-word — zero-extended to 32 bits |
-
 #### Supported Store Instructions
 
 ![Store Instructions](Images/Store-Instructions.png)
-
-| funct3 | Instruction | Description |
-|--------|-------------|-------------|
-| `000` | `sb` | Store lowest byte only |
-| `001` | `sh` | Store lowest half-word |
-| `010` | `sw` | Store full 32-bit word |
 
 **Store Extension — Byte-level write mask:**
 
