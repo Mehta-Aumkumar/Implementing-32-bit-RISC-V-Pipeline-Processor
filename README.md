@@ -18,7 +18,7 @@
 
 > Full RTL-level block diagram showing all pipeline stages, control signals, forwarding paths, and hazard control.
 
-![Complete Processor](docs/Complete_Processor.png)
+![Complete Processor](Images/Complete_Processor.png)
 
 ---
 
