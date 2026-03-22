@@ -164,13 +164,6 @@ Handles all 5 immediate encoding formats with correct sign-extension:
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-- [Icarus Verilog](http://iverilog.icarus.com/) **or** Xilinx Vivado / ModelSim
-- [GTKWave](http://gtkwave.sourceforge.net/) for waveform viewing *(optional)*
-
-### Simulation with Icarus Verilog
-
 ### Simulation with Vivado
 
 1. Create a new RTL project
@@ -195,14 +188,8 @@ Handles all 5 immediate encoding formats with correct sign-extension:
 | Memory Architecture | Harvard (separate IMEM / DMEM) |
 | Load Types | `lb` `lh` `lw` `lbu` `lhu` |
 | Store Types | `sb` `sh` `sw` |
-| Ideal CPI | ~1.0 |
 
 ---
-
-## 📚 References
-
-- [RISC-V ISA Specification v2.2](https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf)
-- Patterson & Hennessy — *Computer Organization and Design: RISC-V Edition*
 
 ---
 
