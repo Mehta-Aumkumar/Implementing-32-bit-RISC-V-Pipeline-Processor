@@ -56,7 +56,7 @@ Each stage has dedicated pipeline registers (`IF/ID`, `ID/EX`, `EX/MEM`, `MEM/WB
 
 All instructions are exactly 32 bits wide, encoded in one of 6 formats:
 
-![RISC-V Instruction Formats](Images/RISC-V_Instruction_Format.png)
+![RISC-V Instruction Formats](Images/RISC-V%20Instruction%20Format.png)
 
 | Format | Fields | Used By |
 |--------|--------|---------|
