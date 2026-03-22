@@ -108,7 +108,7 @@ The memory unit supports **byte**, **half-word**, and **word** accesses with bot
 
 #### Supported Load Instructions
 
-![Load Instructions](Images/Load-unsigned-signed_Instructions.png)
+![Load Instructions](Images/Load-unsigned-signed%20Instructions.png)
 
 | funct3 | Instruction | Description |
 |--------|-------------|-------------|
