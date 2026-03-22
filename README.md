@@ -56,7 +56,7 @@ Each stage has dedicated pipeline registers (`IF/ID`, `ID/EX`, `EX/MEM`, `MEM/WB
 
 All instructions are exactly 32 bits wide, encoded in one of 6 formats:
 
-![RISC-V Instruction Formats](docs/RISC-V_Instruction_Format.png)
+![RISC-V Instruction Formats](Images/RISC-V_Instruction_Format.png)
 
 | Format | Fields | Used By |
 |--------|--------|---------|
@@ -84,19 +84,19 @@ All instructions are exactly 32 bits wide, encoded in one of 6 formats:
 
 The control unit is composed of two cooperating decoders:
 
-![Control Unit Architecture](docs/control_unit.png)
+![Control Unit Architecture](Images/control_unit.png)
 
 #### Main Decoder
 
 Takes the 7-bit opcode and generates all pipeline control signals:
 
-![Main Decoder Truth Table](docs/main_decoder_table.png)
+![Main Decoder Truth Table](Images/main_decoder_table.png)
 
 #### ALU Decoder
 
 Uses `ALUOp` + `funct3` + `funct7[5]` to select the exact ALU operation:
 
-![ALU Decoder Truth Table](docs/alu_decoder_table.png)
+![ALU Decoder Truth Table](Images/alu_decoder_table.png)
 
 ---
 
@@ -104,11 +104,11 @@ Uses `ALUOp` + `funct3` + `funct7[5]` to select the exact ALU operation:
 
 The memory unit supports **byte**, **half-word**, and **word** accesses with both signed and unsigned loads/stores.
 
-![Memory Unit Diagram](docs/Memory_Unit.png)
+![Memory Unit Diagram](Images/Memory_Unit.png)
 
 #### Supported Load Instructions
 
-![Load Instructions](docs/Load-unsigned-signed_Instructions.png)
+![Load Instructions](Images/Load-unsigned-signed_Instructions.png)
 
 | funct3 | Instruction | Description |
 |--------|-------------|-------------|
@@ -120,7 +120,7 @@ The memory unit supports **byte**, **half-word**, and **word** accesses with bot
 
 #### Supported Store Instructions
 
-![Store Instructions](docs/Store-Instructions.png)
+![Store Instructions](Images/Store-Instructions.png)
 
 | funct3 | Instruction | Description |
 |--------|-------------|-------------|
